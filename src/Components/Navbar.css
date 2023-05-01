@@ -1,0 +1,23 @@
+.navbar-wrapper{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 10vh;
+    padding: 0 2.5rem 0 2.5rem;
+    color: red;
+}
+
+.navbar-name{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.navbar-list{
+    display: flex;
+    list-style-type: none;
+    gap: 5rem;
+}
+
+.navbar-list>li{
+    cursor: pointer;
+}
