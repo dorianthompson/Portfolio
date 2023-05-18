@@ -1,26 +1,31 @@
 import React from "react";
 import './Navbar.css';
 
-export default function Navbar() {
+const Navbar = () => {
     return (
         <div className="navbar-wrapper">
             <div className="navbar-left">
-                <div className="navbar-name">DT</div>
+                <div className="navbar-name">
+                    Dorian
+                </div>
+                <span>toggle</span>
             </div>
 
             <div className="navbar-right">
                 <ul className="navbar-list">
                     <li>Home</li>
-                    <li>About Me</li>
+                    <li>
+                        <span>About</span>
+                        <span>Me</span>
+                    </li>
                     <li>Services</li>
                     <li>Certifications</li>
                     <li>Projects</li>
+                    <li>Contact</li>
                 </ul>
             </div>
-
-            <button className="portfolio-button">
-                Contact
-            </button>
         </div>
     )
 }
+
+export default Navbar;

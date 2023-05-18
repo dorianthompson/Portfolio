@@ -1,11 +1,42 @@
-.portfolio-button {
-    color: red;
-    background-color: white;
-    height: 5vh;
-    width: 5rem;
-    border-radius: 12px;
-    border: 1px solid red;
-    cursor: pointer;
+:root{
+    /* red
+        lighter red
+        black
+        white
+    */
+    --red: #C21807;
+    --black: #242D49;
+    --white: rgba(255, 255, 255, 0.761);
+    --box-shadow: 0px 19px 60px rgb(0 0 0 / 8%);
+    --small-box-shadow: -79px 51px 60px rgba(0,0,0,0.08);
 }
+
+.App{
+    padding: 1rem 2.5rem 0.5rem 3.5rem;
+    overflow: hidden;
+    color: white;
+}
+
+body {
+    background-color: var(--white);
+}
+
+.button{
+    border-radius: 15px;
+    border: none;
+    color: var(--red);
+    font-size: 16px;
+    padding: 10px 26px 10px 26px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: var(--red);
+    color: black;
+    border: 2px solid black;
+}
+
+
+
 
 

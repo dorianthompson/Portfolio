@@ -1,0 +1,47 @@
+.intro {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+    
+}
+
+.intro-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.intro-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-name>:nth-child(1){
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.intro-name>:nth-child(2){
+    color: var(--red);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.intro-name>:nth-child(3){
+    font-weight: 100;
+    font-weight: 14px;
+    color: #787878;
+    margin-top: 10px;
+}
+
+.intro-button{
+    width: 6rem;
+    height: 2rem;
+}
+
+.intro-right{
+    flex: 1;
+}
