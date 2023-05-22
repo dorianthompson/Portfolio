@@ -42,6 +42,17 @@
     height: 2rem;
 }
 
+.intro-icons{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    margin-left: 1rem;
+}
+
+.intro-icons>img:hover {
+    cursor: pointer;
+}
+
 .intro-right{
     flex: 1;
 }
