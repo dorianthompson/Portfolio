@@ -41,6 +41,14 @@ const Intro = () => {
                 <div style={{top: '21rem', left: '-8rem'}}>
                     <FloatingElement image={Certificate} topText="Certificate" bottomText="Obession" />
                 </div>
+                <div className="blur" style={{background: 'var(--red)'}}></div>
+                <div className="blur" 
+                style={{
+                    background: 'black',
+                    top: '17rem',
+                    width: '21 rem',
+                    height: '11rem',
+                    left: '-9rem'}}></div>
             </div>
             
         </div>
