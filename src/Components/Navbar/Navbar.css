@@ -49,3 +49,7 @@ ul.navbar-list{
     color: black;
     cursor: pointer;
 }
+
+button{
+    margin-bottom: 3vh;
+}

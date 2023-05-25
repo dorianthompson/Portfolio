@@ -7,6 +7,7 @@
     --red: #C21807;
     --black: #242D49;
     --white: rgba(255, 255, 255, 0.761);
+    --gray: #787878;
     --box-shadow: 0px 19px 60px rgb(0 0 0 / 8%);
     --small-box-shadow: -79px 51px 60px rgba(0,0,0,0.08);
 }

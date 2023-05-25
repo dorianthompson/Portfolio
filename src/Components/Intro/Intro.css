@@ -33,7 +33,7 @@
 .intro-name>:nth-child(3){
     font-weight: 100;
     font-weight: 14px;
-    color: #787878;
+    color: var(--gray);
     margin-top: 10px;
 }
 
@@ -55,4 +55,28 @@
 
 .intro-right{
     flex: 1;
+    position: relative;
+}
+
+.intro-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.intro-right>:nth-child(1){
+    transform: scale(0.69);
+    left: -34%;
+    top: -46%;
+}
+
+.intro-right>:nth-child(2){
+    top: -47%;
+    transform: scale(0.67) rotate(-22deg);
+    left: -10rem;
+}
+
+.intro-right>:nth-child(3){
+    transform: scale(0.57) rotate(40deg);
+    top: -47%;
+    left: -11.4rem;
 }
