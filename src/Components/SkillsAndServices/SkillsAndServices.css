@@ -1,0 +1,58 @@
+.skillsAndServices {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 13rem;
+}
+
+.skillsAndServices-intro{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.skillsAndServices-intro>:nth-child(1){
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.skillsAndServices-intro>:nth-child(2){
+    color: var(--red);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.skillsAndServices-intro>:nth-child(3){
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.skillsAndServices-intro>a{
+    text-decoration:  none;
+}
+
+.skillsAndServices-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 0 1rem 0;
+}
+
+.cards {
+    position: relative;
+}
+
+.cards>*{
+    position: absolute;
+}
+
+
+
+
+

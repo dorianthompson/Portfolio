@@ -1,5 +1,10 @@
 import React from 'react'
-import './SkillsAndServices.css'
+import './SkillsAndServices.css';
+import Computer from '../../img/icons/Computer.png';
+import CodingIcon from '../../img/icons/CodingIcon.png';
+import Technology from '../../img/icons/Technology.png';
+import Card from '../Card/Card';
+import Resume from '../../img/Resume.pdf';
 
 const SkillsAndServices = () => {
   return (
@@ -12,10 +17,33 @@ const SkillsAndServices = () => {
                 <br />
                 and makes learning new technologies, frameworks, and best practices things i revel in.
             </span>
-            <button className="button skillsAndServices-button">Download Resume</button>
-            <div className="blur skillsAndServices-blur1" style={{background: "var(--gray)"}}></div>
+            <a href={Resume} download>
+              <button className="button skillsAndServices-button">Download Resume</button>
+            </a>
         </div>
-        <div className="cards"></div>
+        <div className="cards">
+          <div style={{left: '14rem'}}>
+            <Card
+              icon={CodingIcon}
+              heading={'Software Developer'}
+              description={'React, NodeJs, Express'}
+            />
+          </div>
+          <div style={{top: "12rem", left: "-4rem"}}>
+            <Card
+                icon={Technology}
+                heading={'Interest'}
+                description={'Frontend, Backend, and Fullstack'}
+              />
+          </div>
+          <div style={{top: "19rem", left: "12rem"}}>
+            <Card
+                icon={Computer}
+                heading={'Coding Languages'}
+                description={'Javascript, Python, Java'}
+              />
+          </div> 
+        </div>
     </div>
   )
 }

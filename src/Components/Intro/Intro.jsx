@@ -6,7 +6,7 @@ import RedBlob from '../../img/blobs/RedBlob.png';
 import BlackBlob from '../../img/blobs/BlackBlob.png';
 import GrayBlob from '../../img/blobs/GrayBlob.png';
 import Certificate from '../../img/icons/Certificate.png';
-import LapTop from '../../img/icons/LapTop.png'
+import WhiteLapTop from '../../img/icons/WhiteLapTop.png'
 import FloatingElement from "../FloatingElement/FloatingElement";
 
 const Intro = () => {
@@ -36,7 +36,7 @@ const Intro = () => {
                 <img src={GrayBlob} alt=""/>
                 <img src={BlackBlob} alt=""/>
                 <div style={{top: '-16%', left: '75%'}}>
-                    <FloatingElement image={LapTop} topText="Self" bottomText="Taught"/>
+                    <FloatingElement image={WhiteLapTop} topText="Self" bottomText="Taught"/>
                 </div>
                 <div style={{top: '21rem', left: '-8rem'}}>
                     <FloatingElement image={Certificate} topText="Certificate" bottomText="Obession" />
