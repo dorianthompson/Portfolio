@@ -1,5 +1,6 @@
 import React from "react";
 import './Navbar.css';
+import ColorMode from "../ColorMode/ColorMode";
 
 const Navbar = () => {
     return (
@@ -8,7 +9,7 @@ const Navbar = () => {
                 <div className="navbar-name">
                     Dorian
                 </div>
-                <span>toggle</span>
+                <ColorMode/>
             </div>
 
             <div className="navbar-right">

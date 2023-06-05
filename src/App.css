@@ -34,7 +34,9 @@ body {
 
 .button:hover{
     cursor: pointer;
-    background-color: var(--red);
+    background-color: white;
+    color: var(--red);
+    border: 1px solid var(--red);
 }
 
 
